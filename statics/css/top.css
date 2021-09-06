@@ -1,0 +1,110 @@
+
+
+/* 必要布局样式css */
+.suspension {
+    width: 46px;
+    height: 210px;
+    position: fixed;
+    right: 30px;
+    bottom: 60px;
+    z-index: 999;
+}
+
+.suspension .consult {
+    background-image: url(../img/top-icon.png);
+    background-repeat: no-repeat;
+    background-position: center -1px;
+    background-color: #0af;
+    display: block;
+    position: relative;
+    width: 46px;
+    height: 46px;
+}
+
+
+
+.info-name {
+    display: block;
+    padding-left: 52px;
+    height: 14px;
+    font-size: 14px;
+    color: #333;
+}
+
+.info-value {
+    display: block;
+    padding-left: 52px;
+    margin-top: 8px;
+    height: 18px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #f90;
+}
+
+.suspension a.consult:hover .suspension-list {
+    display: inline !important;
+}
+
+.suspension .cart {
+    background-image: url(../img/top-icon.png);
+    display: block;
+    position: relative;
+    width: 46px;
+    height: 46px;
+    margin-top: 10px;
+    border: 1px solid #bcbcbc;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.suspension a.cart:hover .pic {
+    display: block;
+}
+
+.suspension .back-top {
+    background-image: url(../img/top-icon.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    display: block;
+    width: 46px;
+    height: 46px;
+    border: 1px solid #bcbcbc;
+    background-color: #fff;
+    -webkit-transition: all 0s ease-in-out;
+    -moz-transition: all 0s ease-in-out;
+    -o-transition: all 0s ease-in-out;
+    transition: all 0s ease-in-out;
+    margin-top: 10px;
+}
+
+.suspension .cart .pic {
+    display: none;
+    position: absolute;
+    left: -139px;
+
+    width: 139px;
+    height: 163px;
+}
+
+.pic-content {
+    position: absolute;
+    width: 139px;
+    height: 163px;
+    border: 1px solid #ddd;
+    box-shadow: 0 6px 12px 0 rgba(0,0,0,.15);
+    background: url(https://s.pc.qq.com/tousu/img/20201114/5963680_1605326492.jpg) center no-repeat;
+    right: 10px;
+}
+/* subnav */
+#subnav{
+	height: 36px;
+	line-height: 36px;
+	overflow: hidden;
+	font-size: 14px;
+	border-bottom: 1px solid #e5e5e5;
+	background-color: #fcfcfc;
+}	
+	#subnav em{font-family: simsun; margin: 0 6px; color: #999;font-size: 12px;}	
+	#subnav strong{ color: #390;}	
+	#subnav strong.movie{ color: #06c;margin-left:250px}	
